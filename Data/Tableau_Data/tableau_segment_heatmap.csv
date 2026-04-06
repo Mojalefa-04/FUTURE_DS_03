@@ -1,0 +1,25 @@
+channel,segment,Conversions,Total_Touches,Conversion_Rate_Pct
+Email,Health-focused,469,8845,5.3
+Email,Mainstream,1326,26304,5.04
+Email,Premium,642,13851,4.64
+Email,Value,1516,29856,5.08
+Push,Health-focused,341,6838,4.99
+Push,Mainstream,1051,20416,5.15
+Push,Premium,590,10965,5.38
+Push,Value,1169,23210,5.04
+SMS,Health-focused,284,5743,4.95
+SMS,Mainstream,800,16409,4.88
+SMS,Premium,418,8947,4.67
+SMS,Value,980,19087,5.13
+Search Ads,Health-focused,151,3088,4.89
+Search Ads,Mainstream,481,9251,5.2
+Search Ads,Premium,244,4887,4.99
+Search Ads,Value,484,10744,4.5
+Social Ads,Health-focused,267,4784,5.58
+Social Ads,Mainstream,725,14001,5.18
+Social Ads,Premium,375,7485,5.01
+Social Ads,Value,791,15814,5.0
+WhatsApp,Health-focused,103,2260,4.56
+WhatsApp,Mainstream,323,6473,4.99
+WhatsApp,Premium,189,3475,5.44
+WhatsApp,Value,370,7370,5.02
