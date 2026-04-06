@@ -6,7 +6,6 @@
 
 **Last Updated:** April 6, 2026  
 
-
 ---
 
 ## Table of Contents
@@ -20,8 +19,6 @@
 7. [Monthly Trends](#-monthly-trend-analysis)
 8. [Support Analytics](#-support-ticket-analysis)
 9. [Strategic Recommendations](#-strategic-recommendations)
-10. [File Structure](#-file-structure)
-11. [Contact & Support](#-contact--support)
 
 ---
 
@@ -29,6 +26,13 @@
 
 This repository contains a comprehensive analytics dashboard tracking marketing campaign performance, channel effectiveness, customer segmentation, and support ticket analysis. The data covers the period from February 2023 to February 2026.
 
+---
+
+# Live Dashboard
+
+[Marketing Funnel & Conversion Permance Dashboard](https://public.tableau.com/app/profile/mojalefa.progress.mokhathi/viz/MarketingFunnelConversionPermanceDashboard/Dashboard1)
+
+---
 **Key Metrics at a Glance:**
 - 280,103 total marketing touches
 - 5.03% average conversion rate
