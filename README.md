@@ -11,17 +11,17 @@
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Live Dashboard](#live-dashboard)
-3. [Marketing Funnel Summary](#marketing-funnel-summary)
-4. [Campaign Performance](#campaign-performance-analysis)
-5. [Channel Performance](#channel-performance-overview)
-6. [Customer Segmentation](#-customer-segmentation-analysis)
-7. [Customer Status Analysis](#customer-status-analysis)
-8. [Monthly Trends](#-monthly-trend-analysis)
-9. [Support Analytics](#support-ticket-analysis)
-10. [Strategic Recommendations](#strategic-recommendations)
-11. [Dataset Description](#-dataset-description)
-12. [Workflow Overview](#workflow-overview)
+2. [Dataset Description](#-dataset-description)
+3. [Workflow Overview](#workflow-overview)
+4. [Live Dashboard](#live-dashboard)
+5. [Marketing Funnel Summary](#marketing-funnel-summary)
+6. [Campaign Performance](#campaign-performance-analysis)
+7. [Channel Performance](#channel-performance-overview)
+8. [Customer Segmentation](#-customer-segmentation-analysis)
+9. [Customer Status Analysis](#customer-status-analysis)
+10. [Monthly Trends](#-monthly-trend-analysis)
+11. [Support Analytics](#support-ticket-analysis)
+12. [Strategic Recommendations](#strategic-recommendations)
 13. [Tools and Technologies](#tools-and-technologies)
 
 ---
@@ -31,6 +31,81 @@
 This repository contains a comprehensive analytics dashboard tracking marketing campaign performance, channel effectiveness, customer segmentation, and support ticket analysis. The data covers the period from February 2023 to February 2026.
 
 ---
+## 📊 Dataset Description
+
+### Dataset Origin
+**Dataset Name:** FMCG Customer Behavior & Marketing Analytics Data
+
+**Publisher:** Shuchismita Mallick  
+
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (Attribution required)
+
+### Key characteristics of the dataset:
+  - 10,000+ customers
+  - Hundreds of thousands of transactions
+  - Multiple product categories
+  - Multi-channel marketing data
+  - Customer support interactions
+  - Digital engagement sessions
+  - External macroeconomic signals
+    
+**Data source**: [Kaggle](https://www.kaggle.com/datasets/shuchismitamallick/fmcg-customer-behavior-and-marketing-analytics-data)
+
+### About the Dataset
+
+> *"This dataset simulates a realistic end-to-end retail and marketing ecosystem for a large FMCG brand similar to companies like Nestlé or Unilever. It combines customer transactions, product purchases, marketing interactions, digital engagement, support tickets, and macroeconomic signals into a relational dataset designed for data science, analytics, and machine learning projects."*
+
+### Why This Dataset?
+
+This simulated dataset provides a **realistic, end-to-end retail and marketing ecosystem** that mirrors large FMCG brands. It was selected because it offers:
+
+- **Comprehensive scope:** Marketing, transactions, support, and economic data in one relational structure
+- **Realistic complexity:** Simulates real-world noise, seasonality, and customer behaviors
+- **Privacy-safe:** No real customer PII, ideal for portfolio and educational projects
+- **Production-like:** Mimics actual enterprise data warehouses in structure and scale
+
+### Data Simulation Context
+
+**Important Note:** This is a **simulated dataset** designed for educational and analytical practice. While it mirrors realistic FMCG industry patterns, it does not represent real customer data from any actual company.
+
+| Attribute | Details |
+|-----------|---------|
+| **Industry Modeled** | Fast-Moving Consumer Goods (FMCG) |
+| **Comparable Brands** | Nestlé, Unilever, P&G, PepsiCo |
+| **Data Type** | Synthetic/Simulated |
+| **Use Case** | Education, portfolio projects, methodology demonstration |
+| **Real-world Application** | Analysis methods translate directly to actual FMCG datasets |
+
+
+---
+
+## Workflow Overview
+
+This project analyzes marketing funnel performance using a structured data analysis pipeline:
+
+1. **Data Loading**
+   Import multiple datasets (campaigns, customers, channels, support data) and parse date fields.
+
+2. **Data Exploration**
+   Inspect data structure, check types, and ensure data quality.
+
+3. **Funnel Metrics**
+   Calculate key metrics such as engagement rate, click-through rate (CTR), and conversion rate.
+
+4. **Funnel Visualization**
+   Visualize user drop-off across funnel stages (Sent → Engaged → Clicked → Converted).
+
+5. **Channel & Campaign Analysis**
+   Evaluate performance across marketing channels and campaigns to identify top performers.
+
+6. **Customer Insights**
+   Merge datasets to analyze conversion behavior across customer segments.
+
+7. **Reporting**
+   Generate and save visualizations to communicate insights effectively.
+
+---
+
 
 ## Live Dashboard
 
@@ -169,46 +244,6 @@ All segments show similar distribution patterns (~90% ignored, ~5% clicked, ~5% 
 - **Priority:** Improve 5% engagement rate (90% ignore rate is critical)
 - **Maintain** 50.3% click-to-convert rate
 - **A/B test** subject lines and creative
-
----
-## 📊 Dataset Description
-### Key characteristics of the dataset:
-  - 10,000+ customers
-  - Hundreds of thousands of transactions
-  - Multiple product categories
-  - Multi-channel marketing data
-  - Customer support interactions
-  - Digital engagement sessions
-  - External macroeconomic signals
-    
-**Data source**: [Data](https://www.kaggle.com/datasets/shuchismitamallick/fmcg-customer-behavior-and-marketing-analytics-data)
-
----
-
-## Workflow Overview
-
-This project analyzes marketing funnel performance using a structured data analysis pipeline:
-
-1. **Data Loading**
-   Import multiple datasets (campaigns, customers, channels, support data) and parse date fields.
-
-2. **Data Exploration**
-   Inspect data structure, check types, and ensure data quality.
-
-3. **Funnel Metrics**
-   Calculate key metrics such as engagement rate, click-through rate (CTR), and conversion rate.
-
-4. **Funnel Visualization**
-   Visualize user drop-off across funnel stages (Sent → Engaged → Clicked → Converted).
-
-5. **Channel & Campaign Analysis**
-   Evaluate performance across marketing channels and campaigns to identify top performers.
-
-6. **Customer Insights**
-   Merge datasets to analyze conversion behavior across customer segments.
-
-7. **Reporting**
-   Generate and save visualizations to communicate insights effectively.
 
 ---
 
