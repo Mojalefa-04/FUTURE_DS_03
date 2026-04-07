@@ -109,7 +109,7 @@ This project analyzes marketing funnel performance using a structured data analy
 
 ## Live Dashboard
 
-[Marketing Funnel & Conversion Permance Dashboard](https://public.tableau.com/app/profile/mojalefa.progress.mokhathi/viz/MarketingFunnelConversionPermanceDashboard/Dashboard1)
+[Marketing Funnel & Conversion Performance Dashboard](https://public.tableau.com/app/profile/mojalefa.progress.mokhathi/viz/MarketingFunnelConversionPermanceDashboard/Dashboard1)
 
 ---
 **Key Metrics at a Glance:**
